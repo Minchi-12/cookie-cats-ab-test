@@ -27,6 +27,8 @@ H0: no difference between groups · H1: a difference exists (two-sided, α = 0.0
 
 7-day retention is the primary metric because most players have not reached the gate on day 1 (median player: 16 rounds in 14 days), so any gate effect is diluted in day-1 retention.
 
+Data: [Cookie Cats dataset on Kaggle](https://www.kaggle.com/datasets/arpitdw/cokie-cats/data).
+
 ## Data Quality
 - No missing values or duplicate users.
 - **Sample ratio mismatch (SRM) detected:** χ² p ≈ 0.009 (49.6% / 50.4% split). The assignment mechanism is unknown, so the cause could not be determined; results are reported with this limitation.
@@ -75,7 +77,7 @@ data/                                      dataset (not committed, see data/READ
 Notebooks are written in Turkish; code and outputs are self-explanatory.
 
 ## How to Run
-1. Download the dataset as described in [data/README.md](data/README.md) and place `cookie_cats.csv` in `data/`.
+1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/arpitdw/cokie-cats/data) and place it in `data/` as `cookie_cats.csv` (see [data/README.md](data/README.md)).
 2. Install dependencies and open the notebooks in order:
 ```
 pip install -r requirements.txt
