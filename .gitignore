@@ -1,0 +1,15 @@
+# Data (download separately, see data/README.md)
+data/*.csv
+*.zip
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
